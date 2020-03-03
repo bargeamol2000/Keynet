@@ -1,0 +1,221 @@
+{
+  "project_info": {
+    "project_number": "16335282526",
+    "firebase_url": "https://jetdownloader-500d5.firebaseio.com",
+    "project_id": "jetdownloader-500d5",
+    "storage_bucket": "jetdownloader-500d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335282526:android:9208a979d658f992f8afcf",
+        "android_client_info": {
+          "package_name": "com.codebelow.jdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335282526-6ta2pjht4blupf0ot6fja65el6q4b42c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codebelow.jdm",
+            "certificate_hash": "a3ed56732359c264e219a88fd2613504fdbfaaaf"
+          }
+        },
+        {
+          "client_id": "16335282526-ge5vbuif9feeccgjdubvg270g1e4c02r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50WPuENXeXQyrErIvuBdPY1hjI-QuRBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335282526-i16m7keo6dot4m83lno9919jhagl8sen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335282526:android:d10e6c4db5cb8c5bf8afcf",
+        "android_client_info": {
+          "package_name": "com.codebelow.keynet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335282526-j24fqeoeqs0uthr2kjms0s7h1amsimpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codebelow.keynet",
+            "certificate_hash": "a3ed56732359c264e219a88fd2613504fdbfaaaf"
+          }
+        },
+        {
+          "client_id": "16335282526-ge5vbuif9feeccgjdubvg270g1e4c02r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50WPuENXeXQyrErIvuBdPY1hjI-QuRBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335282526-i16m7keo6dot4m83lno9919jhagl8sen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335282526:android:b69fb660e0aa6251f8afcf",
+        "android_client_info": {
+          "package_name": "in.codebelow.jetmagnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335282526-tl9n81c5jsrv63snv6j9eol2amdtjgl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codebelow.jetmagnet",
+            "certificate_hash": "a3ed56732359c264e219a88fd2613504fdbfaaaf"
+          }
+        },
+        {
+          "client_id": "16335282526-ge5vbuif9feeccgjdubvg270g1e4c02r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50WPuENXeXQyrErIvuBdPY1hjI-QuRBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335282526-i16m7keo6dot4m83lno9919jhagl8sen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335282526:android:ef5d635bd07f9977",
+        "android_client_info": {
+          "package_name": "in.codebelow.openloadvideodownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335282526-q6h23uqrr6rsbger49rvesnm2k8p3a3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codebelow.openloadvideodownloader",
+            "certificate_hash": "1e4f962404c1bc3171b9229891df2fa6a906c55a"
+          }
+        },
+        {
+          "client_id": "16335282526-pcg5bofmvc0mlf3qsbg4philb0tq827f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codebelow.openloadvideodownloader",
+            "certificate_hash": "1d63e055e3b052fb2f616da1b873ca508423b5e7"
+          }
+        },
+        {
+          "client_id": "16335282526-v431uu8gjho2al5vr4fdv02j04uco5ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codebelow.openloadvideodownloader",
+            "certificate_hash": "bdf5379696e48dd6dec76711509542b139a47a84"
+          }
+        },
+        {
+          "client_id": "16335282526-k1uimh89u5s8dveib1qfrh9oe5a998ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codebelow.openloadvideodownloader",
+            "certificate_hash": "a3ed56732359c264e219a88fd2613504fdbfaaaf"
+          }
+        },
+        {
+          "client_id": "16335282526-ge5vbuif9feeccgjdubvg270g1e4c02r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50WPuENXeXQyrErIvuBdPY1hjI-QuRBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335282526-i16m7keo6dot4m83lno9919jhagl8sen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1079237659000473~5150578731"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335282526:android:f5452d000bddc90df8afcf",
+        "android_client_info": {
+          "package_name": "in.extratech.gplinksbrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335282526-nfv6itn38gdole6di3f1elhuh1vdv8gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.extratech.gplinksbrowser",
+            "certificate_hash": "a3ed56732359c264e219a88fd2613504fdbfaaaf"
+          }
+        },
+        {
+          "client_id": "16335282526-ge5vbuif9feeccgjdubvg270g1e4c02r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50WPuENXeXQyrErIvuBdPY1hjI-QuRBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335282526-i16m7keo6dot4m83lno9919jhagl8sen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

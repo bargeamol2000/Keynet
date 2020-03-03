@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:onClick="backClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Options"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="55dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/layoutbg"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Hourly Passwords"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_hour"
+                android:drawablePadding="10dp"
+                android:onClick="openHourlyPass"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Monthly Passwords"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_month"
+                android:drawablePadding="10dp"
+                android:alpha="0.5"
+                android:onClick="showAvailableSoon"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="SHA-1 Generator"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_fingerprint"
+                android:drawablePadding="10dp"
+                android:onClick="openSHA1"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="SHA-224 Generator"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_key"
+                android:drawablePadding="10dp"
+                android:onClick="openSHA224"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="MD2 Generator"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_visibility"
+                android:drawablePadding="10dp"
+                android:onClick="openMD2"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="MD5 Generator"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_lock_open"
+                android:drawablePadding="10dp"
+                android:onClick="openMD5"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Integration Api"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_code"
+                android:drawablePadding="10dp"
+                android:alpha="0.5"
+                android:onClick="showAvailableSoon"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555555"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Update app"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_system_update"
+                android:drawablePadding="10dp"
+                android:onClick="openPlaystorePage"
+                />
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Rate this app"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_star_half"
+                android:drawablePadding="10dp"
+                android:onClick="openPlaystorePage"/>
+
+            <Button
+                android:stateListAnimator="@null"
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Privacy and policy"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:onClick="openPlaystorePage"/>
+
+            <Button
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                android:stateListAnimator="@null"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="About us"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_people"
+                android:drawablePadding="10dp"
+                android:onClick="openPlaystorePage"/>
+
+            <Button
+                android:gravity="center|start"
+                android:paddingStart="15dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:stateListAnimator="@null"
+                android:background="@color/colorPrimary"
+                android:text="Help &amp; feedback"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/ic_help"
+                android:drawablePadding="10dp"
+                android:onClick="openPlaystorePage"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555555"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
